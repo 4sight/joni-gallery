@@ -1,0 +1,52 @@
+<html>
+<head>
+	<title>Gallery</title>
+</head>
+<body>
+	<style>
+		body {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 18px;
+			line-height: 30px;
+		}
+		.wrapper {
+			display: table;
+			width: 100%;
+			height: 100%;
+		}
+		.child {
+			display: table-cell;
+			width: 45%;
+			padding-left: 40px;
+		}
+		h1 {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-style: italic;
+			text-align: center;
+			margin-bottom: 40px;
+		}
+		.caption {
+			text-align: center;
+			font-size: 14px;
+			line-height: 18px;
+		}
+		#miriammeText {
+			top: 50%;
+			-ms-transform: translateY(-50%);
+			transform: translateY(-50%);
+		}
+	</style>
+	<div id='desktopWrapper'>
+		<div class='wrapper'>
+			<div class='child' id='miriammeText'>
+				<h1><br>It is 42 B.C. in Jerusalem...</h1>
+				<p>Maccabee Princess Miriamne, granddaughter of the king, is forced into an arranged marriage with the brilliant and brutal Herod the Great.</p>
+			</div>
+			<div class='child' id='miriammeLeaving'>
+				<img src='https://live.staticflickr.com/65535/40840275863_f71e29be88_b.jpg' alt='Miriamme Leaving the Judgement Seat of Herod'>
+				<div><p id='miriammeCaption' class='caption'>John William Waterhouse<br>Miriamne Leaving the Judgement Seat of Herod (1887)</p></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
