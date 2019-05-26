@@ -86,22 +86,32 @@
 			width: auto;
 		}
 		img {
-			width: 100%;
+			width: 400px;
+			margin: 0 auto;
 			text-align: center;
+			display: block;
+		}
+		p {
 		}
 		div {
-			display: inline-block;
+			display: auto;
 		}
 		#desktopWrapper {
 			display: none;
 		}
 		#mobileWrapper {
-			display: inline;
+			display: block;
 		}
 		h1 {
 			font-family: 'Josefin Sans', Arial, sans-serif;
 			font-style: italic;
 			margin-bottom: 40px;
+			position: relative;
+			top: -30px;
+			line-height: 50px;
+		}
+		.caption {
+			line-height: 18px;
 		}
 		#miriammeText {
 			font-family: 'Josefin Sans', Arial, sans-serif;
@@ -109,18 +119,25 @@
 			margin-left: 40px;
 			margin-right: 40px;
 			line-height: 30px;
+			position: relative;
+			top: 0px;
+			bottom: 0px;
 		}
 		#miriammeCaption {
 			font-family: 'Josefin Sans', Arial, sans-serif;
 			font-size: 14px;
 			text-align: center;
+			line-height: 18px;
+			text-align: center;
+		}
+		#allBut1 {
+			position: relative;
+			top: 300px;
 		}
 		#johnCaption {
 			font-family: 'Josefin Sans', Arial, sans-serif;
 			font-size: 14px;
 			position: relative;
-			right: 10px;
-			top: 50px;
 			text-align: center;
 		}
 		#johnText {
@@ -129,11 +146,6 @@
 			margin-right: 40px;
 			margin-left: 40px;
 			line-height: 30px;
-		}
-		#masada {
-		}
-		#masada img {
-			position: relative;
 		}
 		#masadaCaption {
 			font-family: 'Josefin Sans', Arial, sans-serif;
@@ -146,18 +158,9 @@
 			margin-right: 40px;
 			margin-left: 40px;
 			line-height: 30px;
-		}
-		#takingOfJerusalem {
-			overflow: hidden;
-			object-fit: cover;
-			height: 500px;
-			margin: 0;
-			width: 95%;
-		}
-		#takingOfJerusalem img {
-			width: 110%;
-			display: block;
-			margin: -200px -20px 0px -20px;
+			position: relative;
+			top: 0px;
+			bottom: 0px;
 		}
 		#takingOfJerusalemText {
 			font-family: 'Josefin Sans', Arial, sans-serif;
@@ -165,25 +168,16 @@
 			margin-right: 40px;
 			margin-left: 40px;
 			line-height: 30px;
+			position: relative;
+			top: 0px;
+			bottom: 0px;
 		}
 		#takingOfJerusalemCaption {
 			font-family: 'Josefin Sans', Arial, sans-serif;
 			font-size: 14px;
 			text-align: center;
 			position: relative;
-			right: 30px;
 			top: 0px; /* Displays better on GoDaddy for some reason */
-		}
-		#AntonyAndCleopatra {
-			overflow: hidden;
-			object-fit: cover;
-			margin: 0;
-			width: 95%;
-		}
-		#AntonyAndCleopatra img {
-			width: 110%;
-			display: block;
-			margin: 0px -20px 0px -20px;
 		}
 		#AntonyAndCleopatraText {
 			font-family: 'Josefin Sans', Arial, sans-serif;
@@ -191,30 +185,19 @@
 			margin-right: 40px;
 			margin-left: 40px;
 			line-height: 30px;
+			position: relative;
+			top: 0px;
+			bottom: 0px;
 		}
 		#AntonyAndCleopatraCaption {
 			font-family: 'Josefin Sans', Arial, sans-serif;
 			font-size: 14px;
 			text-align: center;
-			display: inline-block;
-		}
-		#miriammeWife {
-			overflow: hidden;
-			object-fit: cover;
-			height: 500px;
-			margin: 0;
-			width: 95%;
-		}
-		#miriammeWife img {
-			width: 100%;
-			display: block;
-			margin: 0px -20px 0px -20px;
 		}
 		#miriammeWifeCaption {
 			font-family: 'Josefin Sans', Arial, sans-serif;
 			font-size: 14px;
 			text-align: center;
-			display: inline-block;
 		}
 		#miriammeWifeText {
 			font-family: 'Josefin Sans', Arial, sans-serif;
@@ -222,6 +205,9 @@
 			margin-right: 40px;
 			margin-left: 40px;
 			line-height: 30px;
+			position: relative;
+			top: 0px;
+			bottom: 0px;
 		}
 	}
 	</style>
@@ -287,41 +273,50 @@
 		</div>
 	</div>
 	<div id='mobileWrapper'>
+		<div id='1'>
 			<div id='headline'><h1><br>It is 42 B.C. in Jerusalem...</h1></div>
-			<div><p id='miriammeText'>Maccabee Princess Miriamne, granddaughter of the king, is forced into an arranged marriage with the brilliant and brutal Herod the Great.</p></div>
+			<div id='miriammeText'><p>Maccabee Princess Miriamne, granddaughter of the king, is forced into an arranged marriage with the brilliant and brutal Herod the Great.</p></div>
 			<div id='miriammeLeaving'>
 				<img src='https://live.staticflickr.com/65535/40840275863_f71e29be88_b.jpg' alt='Miriamme Leaving the Judgement Seat of Herod'>
+				<p id='miriammeCaption' class='caption'>John William Waterhouse<br>Miriamne Leaving the<br>Judgement Seat of Herod (1887)</p></div>
+		</div>
+			<div id='allBut1'>
+				<div id='johnText'><p>Herod steals power and becomes the King of Judea, deposing her family, who has long ruled the land. Miriamne wants more than anything to put her brother on the throne and restore Maccabee rule.</p></div>
+					<img src='https://live.staticflickr.com/65535/46978492084_7f76d3c6dc_b.jpg' alt='John the Baptist Rebukes King Herod'>
+				<div id='johnCaption' class='caption'><p>
+				Giuseppe Fattori - John the Baptist Rebukes King Herod (1856)
+				</p>
 			</div>
-			<p id='miriammeCaption'>John William Waterhouse<br>Miriamne Leaving the<br>Judgement Seat of Herod (1887)</p>
-			<div><p id='johnText'>Herod steals power and becomes the King of Judea, deposing her family, who has long ruled the land. Miriamne wants more than anything to put her brother on the throne and restore Maccabee rule.</p></div>
-			<div id='johnTheBaptist'>
-				<img src='https://live.staticflickr.com/65535/46978492084_7f76d3c6dc_b.jpg' alt='John the Baptist Rebukes King Herod'>
-			</div>
-			<p id='johnCaption'>
-			Giuseppe Fattori - John the Baptist Rebukes King Herod (1856)
-			</p>
-			<div><p id='masadaText'>Nothing is ever the same after the Parthians of Persia invade Judea, imprison the king, and sweep out the Romans. Herod saves Miriamne and her family from certain slaughter, whisking them to safety at Masada, a remote desert outpost. He goes to King Aretas in Petra, Cleopatra in Alexandria, and Triumvir Mark Antony in Rome in search of gold to oust the invaders and take Jerusalem. Antony agrees to help him, and crowns him the new King of Judea.<br><br>
-
-			Meanwhile, Miriamne struggles to survive the searing drought heat of Masada and suffers from thirst and hunger. Relations between Miriamne and Herod's vicious sister are tense.</p></div>
 			<div id='masada'>
-				<img src='https://live.staticflickr.com/65535/46856457075_03600b5173_b.jpg' alt='Masada'>
+				<div id='masadaText'><p>Nothing is ever the same after the Parthians of Persia invade Judea, imprison the king, and sweep out the Romans. Herod saves Miriamne and her family from certain slaughter, whisking them to safety at Masada, a remote desert outpost. He goes to King Aretas in Petra, Cleopatra in Alexandria, and Triumvir Mark Antony in Rome in search of gold to oust the invaders and take Jerusalem. Antony agrees to help him, and crowns him the new King of Judea.<br><br>
+
+				Meanwhile, Miriamne struggles to survive the searing drought heat of Masada and suffers from thirst and hunger. Relations between Miriamne and Herod's vicious sister are tense.</p></div>
+				<div id='masada'>
+					<img src='https://live.staticflickr.com/65535/46856457075_03600b5173_b.jpg' alt='Masada'>
+				</div>
+				<div id='masadaCaption' class='caption'><p>Masada</p>
 			</div>
-			<p id='masadaCaption'>Masada</p>
-			<div><p id='AntonyAndCleopatraText'>Miriamne’s world is shattered when Aris is found drowned. Herod is suspected of ordering his murder, though Miriamne initially refuses to believe he is guilty. However, when Antony and Cleopatra summon Herod to Egypt to face murder charges, Miriamne begins to doubt his professed innocence. She’s forced to reconsider her belief in love’s power to change character.</p></div>
+			<div id='antonyAndCleopatra'>
+				<div id='antonyAndCleopatraText'><p>Miriamne’s world is shattered when Aris is found drowned. Herod is suspected of ordering his murder, though Miriamne initially refuses to believe he is guilty. However, when Antony and Cleopatra summon Herod to Egypt to face murder charges, Miriamne begins to doubt his professed innocence. She’s forced to reconsider her belief in love’s power to change character.</p></div>
+				<div id='takingOfJerusalem'>
+					<img src='https://upload.wikimedia.org/wikipedia/commons/d/d9/Prise_de_J%C3%A9rusalem_par_H%C3%A9rode_le_Grand.jpg'>
+					<p id='takingOfJerusalemCaption' class='caption'>Jean Fouquet<br>The Taking of Jerusalem<br>by Herod the Great (1470)</p>
+				</div>
+			</div>
 			<div id='takingOfJerusalem'>
-				<img src='https://upload.wikimedia.org/wikipedia/commons/d/d9/Prise_de_J%C3%A9rusalem_par_H%C3%A9rode_le_Grand.jpg'>
-				<p id='takingOfJerusalemCaption'>Jean Fouquet<br>The Taking of Jerusalem<br>by Herod the Great (1470)</p>
-			</div>
-			<div><p id='takingOfJerusalemText'>Herod besieges Jerusalem, conquers the Parthians, and takes Judea. Miriamne and Herod marry. He loves her obsessively. She is attracted to his rugged good looks and brilliance, and over time, grows to admire and love him. She believes her love is changing Herod's character and making him a better man.</p></div>
-			<div id='miriammeWife'>
-				<img src='https://live.staticflickr.com/65535/40807486783_a1f8a9679c_b.jpg' alt='Mariamme Wife of King Herod'>
-			</div>
-			<p id='miriammeWifeCaption'>Edward William John Hopley<br>Miriamne Wife of King Herod (1868)</p>
-				<div><p id='miriammeWifeText'>As Herod grows more obsessively in love with her, and more paranoid about her fidelity and threat to his rule, she fears for her safety.<br><br>Can Miriamne escape Herod before it is too late?</p></div>
+				<div id='takingOfJerusalemText'><p>Herod besieges Jerusalem, conquers the Parthians, and takes Judea. Miriamne and Herod marry. He loves her obsessively. She is attracted to his rugged good looks and brilliance, and over time, grows to admire and love him. She believes her love is changing Herod's character and making him a better man.</p></div>
 				<div id='AntonyAndCleopatra'>
 					<img src='https://live.staticflickr.com/65535/32829640997_d2a3960819_b.jpg' alt='Antony and Cleopatra'>
+					<p id='AntonyAndCleopatraCaption' class='caption'>Lawrence Alma-Tadema<br>Antony and Cleopatra (1885)</p>
 				</div>
-				<p id='AntonyAndCleopatraCaption'>Lawrence Alma-Tadema<br>Antony and Cleopatra (1885)</p>
+			</div>
+			<div id='miriammeWife'>
+				<div id='miriammeWifeText'><p>As Herod grows more obsessively in love with her, and more paranoid about her fidelity and threat to his rule, she fears for her safety.<br><br>Can Miriamne escape Herod before it is too late?</p></div>
+				<div id='miriammeWife'>
+					<img src='https://live.staticflickr.com/65535/40807486783_a1f8a9679c_b.jpg' alt='Mariamme Wife of King Herod'>
+					<p id='miriammeWifeCaption' class='caption'>Edward William John Hopley<br>Miriamne Wife of King Herod (1868)</p>
+				</div>
+			</div>
 	</div>
 </body>
 </html>
