@@ -32,7 +32,7 @@
 			font-style: italic;
 			text-align: center;
 			margin-bottom: 40px;
-			line-height: 30px;
+			line-height: 50px;
 		}
 		.caption {
 			text-align: center;
@@ -71,11 +71,14 @@
 			-ms-transform: translateY(-300%);
 			transform: translateY(-300%);
 		}
-		@media only screen 
-		and (min-width : 845px)
-		and (max-width : 1100px) {
+	@media only screen 
+	and (min-width : 845px)
+	and (max-width : 1100px) {
 		body {
 			width: auto;
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			line-height: 30px;
 		}
 		img {
 			width: 400px;
@@ -150,16 +153,22 @@
 			font-size: 14px;
 			text-align: center;
 		}
+		#masadaText {
+			margin-right: 40px;
+			margin-left: 40px;
+		}
 		#masadaTextp {
-			font-family: 'Josefin Sans', Arial, sans-serif;
-			font-size: 16px;
+			line-height: 30px;
 			margin-right: 40px;
 			margin-left: 40px;
 			line-height: 30px;
 		}
 		#masada {
+			margin-right: 40px;
+			margin-left: 40px;
 			position: relative;
-			top: -100px;
+			top: -50px;
+			line-height: 30px;
 		}
 		#takingOfJerusalemText {
 			font-family: 'Josefin Sans', Arial, sans-serif;
@@ -193,7 +202,7 @@
 			margin-left: 40px;
 			line-height: 30px;
 			position: relative;
-			top: 140px;
+			top: 190px;
 			bottom: 0px;
 		}
 		#antonyAndCleopatraCaption {
@@ -307,8 +316,7 @@
 			margin-left: 40px;
 			line-height: 30px;
 			position: relative;
-			top: 160px;
-			bottom: 0px;
+			top: 0px;
 		}
 		#masada {
 			position: relative;
@@ -375,7 +383,7 @@
 		}
 	}
 		@media only screen 
-		and (min-width : 675px)
+		and (min-width : 750px)
 		and (max-width : 830px) {
 		body {
 			width: auto;
@@ -458,7 +466,7 @@
 			margin-left: 40px;
 			line-height: 30px;
 			position: relative;
-			top: 160px;
+			top: 0px;
 			bottom: 0px;
 		}
 		#masada {
@@ -497,7 +505,7 @@
 			margin-left: 40px;
 			line-height: 30px;
 			position: relative;
-			top: 140px;
+			top: 200px;
 			bottom: 0px;
 		}
 		#antonyAndCleopatraCaption {
@@ -525,8 +533,9 @@
 			bottom: 0px;
 		}
 	}
-		@media only screen 
-		and (max-width : 674px) {
+	@media only screen 
+	and (min-width : 675px)
+	and (max-width : 750px) {
 		body {
 			width: auto;
 		}
@@ -608,7 +617,160 @@
 			margin-left: 40px;
 			line-height: 30px;
 			position: relative;
+			top: 0px;
+			bottom: 0px;
+		}
+		#masada {
+			position: relative;
+			top: -100px;
+		}
+		#takingOfJerusalemText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 40px;
+			margin-left: 40px;
+			line-height: 30px;
+			position: relative;
+			top: -100px;
+			bottom: 0px;
+		}
+		#takingOfJerusalemCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+			position: relative;
+			top: 0px; /* Displays better on GoDaddy for some reason */
+		}
+		#last3 {
+			position: relative;
+			top: 800px;
+		}
+		#antonyAndCleopatra {
+			position: relative;
+			top: -400px;
+		}
+		#antonyAndCleopatraText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 40px;
+			margin-left: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 200px;
+			bottom: 0px;
+		}
+		#antonyAndCleopatraCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+		}
+		#miriammeWife {
+			position: relative;
+			top: -300px;
+		}
+		#miriammeWifeCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+		}
+		#miriammeWifeText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 40px;
+			margin-left: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 0px;
+			bottom: 0px;
+		}
+	}
+		@media only screen 
+	and (min-width : 635px)
+	and (max-width : 675px) {
+		body {
+			width: auto;
+		}
+		img {
+			width: 400px;
+			margin: 0 auto;
+			text-align: center;
+			display: block;
+		}
+		p {
+		}
+		div {
+			display: auto;
+		}
+		#desktopWrapper {
+			display: none;
+		}
+		#mobileWrapper {
+			display: block;
+		}
+		h1 {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-style: italic;
+			margin-bottom: 40px;
+			position: relative;
+			top: -30px;
+			line-height: 50px;
+		}
+		.caption {
+			line-height: 18px;
+		}
+		#miriammeText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-left: 40px;
+			margin-right: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 0px;
+			bottom: 0px;
+		}
+		#miriammeCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+			line-height: 18px;
+			text-align: center;
+		}
+		#allBut1 {
+			position: relative;
 			top: 300px;
+		}
+		#john {
+			position: relative;
+			top: -200px;
+		}
+		#johnCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			position: relative;
+			text-align: center;
+		}
+		#johnText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 40px;
+			margin-left: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 60px;
+		}
+		#masadaCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+		}
+		#masadaText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 40px;
+			margin-left: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 00px;
 			bottom: 0px;
 		}
 		#masada {
@@ -623,7 +785,6 @@
 			line-height: 30px;
 			position: relative;
 			top: 0px;
-			bottom: 0px;
 		}
 		#takingOfJerusalemCaption {
 			font-family: 'Josefin Sans', Arial, sans-serif;
@@ -671,8 +832,1212 @@
 			margin-left: 40px;
 			line-height: 30px;
 			position: relative;
+			top: 20px;
+		}
+	}
+	@media only screen 
+	and (min-width : 630px)
+	and (max-width : 635px) {
+		body {
+			width: auto;
+		}
+		img {
+			width: 400px;
+			margin: 0 auto;
+			text-align: center;
+			display: block;
+		}
+		p {
+		}
+		div {
+			display: auto;
+		}
+		#desktopWrapper {
+			display: none;
+		}
+		#mobileWrapper {
+			display: block;
+		}
+		h1 {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-style: italic;
+			margin-bottom: 40px;
+			position: relative;
+			top: -30px;
+			line-height: 50px;
+		}
+		.caption {
+			line-height: 18px;
+		}
+		#miriammeText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-left: 40px;
+			margin-right: 40px;
+			line-height: 30px;
+			position: relative;
 			top: 0px;
 			bottom: 0px;
+		}
+		#miriammeCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+			line-height: 18px;
+			text-align: center;
+		}
+		#allBut1 {
+			position: relative;
+			top: 300px;
+		}
+		#john {
+			position: relative;
+			top: -200px;
+		}
+		#johnCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			position: relative;
+			text-align: center;
+		}
+		#johnText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 40px;
+			margin-left: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 60px;
+		}
+		#masadaCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+		}
+		#masadaText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 40px;
+			margin-left: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 00px;
+			bottom: 0px;
+		}
+		#masada {
+			position: relative;
+			top: -100px;
+		}
+		#takingOfJerusalemText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 40px;
+			margin-left: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 0px;
+		}
+		#takingOfJerusalemCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+			position: relative;
+			top: 0px; /* Displays better on GoDaddy for some reason */
+		}
+		#last3 {
+			position: relative;
+			top: 800px;
+		}
+		#antonyAndCleopatra {
+			position: relative;
+			top: -400px;
+		}
+		#antonyAndCleopatraText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 40px;
+			margin-left: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 260px;
+			bottom: 0px;
+		}
+		#antonyAndCleopatraCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+		}
+		#miriammeWife {
+			position: relative;
+			top: -300px;
+		}
+		#miriammeWifeCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+		}
+		#miriammeWifeText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 40px;
+			margin-left: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 100px;
+		}
+	}
+		@media only screen 
+	and (min-width : 580px)
+	and (max-width : 630px) {
+		body {
+			width: auto;
+		}
+		img {
+			width: 400px;
+			margin: 0 auto;
+			text-align: center;
+			display: block;
+		}
+		p {
+		}
+		div {
+			display: auto;
+		}
+		#desktopWrapper {
+			display: none;
+		}
+		#mobileWrapper {
+			display: block;
+		}
+		h1 {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-style: italic;
+			margin-bottom: 40px;
+			position: relative;
+			top: -30px;
+			line-height: 50px;
+		}
+		.caption {
+			line-height: 18px;
+		}
+		#miriammeText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-left: 40px;
+			margin-right: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 0px;
+			bottom: 0px;
+		}
+		#miriammeCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+			line-height: 18px;
+			text-align: center;
+		}
+		#allBut1 {
+			position: relative;
+			top: 300px;
+		}
+		#john {
+			position: relative;
+			top: -200px;
+		}
+		#johnCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			position: relative;
+			text-align: center;
+		}
+		#johnText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 40px;
+			margin-left: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 60px;
+		}
+		#masadaCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+		}
+		#masadaText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 40px;
+			margin-left: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 00px;
+			bottom: 0px;
+		}
+		#masada {
+			position: relative;
+			top: -100px;
+		}
+		#takingOfJerusalemText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 40px;
+			margin-left: 40px;
+			line-height: 30px;
+			position: relative;
+			top: -60px;
+		}
+		#takingOfJerusalemCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+			position: relative;
+			top: 0px; /* Displays better on GoDaddy for some reason */
+		}
+		#last3 {
+			position: relative;
+			top: 800px;
+		}
+		#antonyAndCleopatra {
+			position: relative;
+			top: -400px;
+		}
+		#antonyAndCleopatraText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 40px;
+			margin-left: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 300px;
+			bottom: 0px;
+		}
+		#antonyAndCleopatraCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+		}
+		#miriammeWife {
+			position: relative;
+			top: -300px;
+		}
+		#miriammeWifeCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+		}
+		#miriammeWifeText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 40px;
+			margin-left: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 40px;
+		}
+	}
+	@media only screen 
+	and (min-width : 491px)
+	and (max-width : 580px) {
+		body {
+			width: auto;
+		}
+		img {
+			width: 400px;
+			margin: 0 auto;
+			text-align: center;
+			display: block;
+		}
+		p {
+		}
+		div {
+			display: auto;
+		}
+		#desktopWrapper {
+			display: none;
+		}
+		#mobileWrapper {
+			display: block;
+		}
+		h1 {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-style: italic;
+			margin-bottom: 40px;
+			position: relative;
+			top: -30px;
+			line-height: 50px;
+		}
+		.caption {
+			line-height: 18px;
+		}
+		#miriammeText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-left: 40px;
+			margin-right: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 0px;
+			bottom: 0px;
+		}
+		#miriammeCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+			line-height: 18px;
+			text-align: center;
+		}
+		#allBut1 {
+			position: relative;
+			top: 300px;
+		}
+		#john {
+			position: relative;
+			top: -200px;
+		}
+		#johnCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			position: relative;
+			text-align: center;
+		}
+		#johnText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 40px;
+			margin-left: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 60px;
+		}
+		#masadaCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+		}
+		#masadaText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 40px;
+			margin-left: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 00px;
+			bottom: 0px;
+		}
+		#masada {
+			position: relative;
+			top: -100px;
+		}
+		#takingOfJerusalemText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 40px;
+			margin-left: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 140px;
+		}
+		#takingOfJerusalemCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+			position: relative;
+			top: 0px; /* Displays better on GoDaddy for some reason */
+		}
+		#last3 {
+			position: relative;
+			top: 800px;
+		}
+		#antonyAndCleopatra {
+			position: relative;
+			top: -400px;
+		}
+		#antonyAndCleopatraText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 40px;
+			margin-left: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 400px;
+			bottom: 0px;
+		}
+		#antonyAndCleopatraCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+		}
+		#miriammeWife {
+			position: relative;
+			top: -300px;
+		}
+		#miriammeWifeCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+		}
+		#miriammeWifeText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 40px;
+			margin-left: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 100px;
+		}
+	}
+	@media only screen 
+	and (min-width : 460px)
+	and (max-width : 491px) {
+		body {
+			width: auto;
+		}
+		img {
+			width: 400px;
+			margin: 0 auto;
+			text-align: center;
+			display: block;
+		}
+		p {
+		}
+		div {
+			display: auto;
+		}
+		#desktopWrapper {
+			display: none;
+		}
+		#mobileWrapper {
+			display: block;
+		}
+		h1 {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-style: italic;
+			margin-bottom: 40px;
+			position: relative;
+			top: -30px;
+			line-height: 50px;
+		}
+		.caption {
+			line-height: 18px;
+		}
+		#miriammeText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-left: 40px;
+			margin-right: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 0px;
+			bottom: 0px;
+		}
+		#miriammeCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+			line-height: 18px;
+			text-align: center;
+		}
+		#allBut1 {
+			position: relative;
+			top: 300px;
+		}
+		#john {
+			position: relative;
+			top: -200px;
+		}
+		#johnCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			position: relative;
+			text-align: center;
+		}
+		#johnText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 40px;
+			margin-left: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 160px;
+		}
+		#masadaCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+		}
+		#masadaText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 40px;
+			margin-left: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 00px;
+			bottom: 0px;
+		}
+		#masada {
+			position: relative;
+			top: -100px;
+		}
+		#takingOfJerusalemText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 40px;
+			margin-left: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 140px;
+		}
+		#takingOfJerusalemCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+			position: relative;
+			top: 0px; /* Displays better on GoDaddy for some reason */
+		}
+		#last3 {
+			position: relative;
+			top: 800px;
+		}
+		#antonyAndCleopatra {
+			position: relative;
+			top: -400px;
+		}
+		#antonyAndCleopatraText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 40px;
+			margin-left: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 380px;
+			bottom: 0px;
+		}
+		#antonyAndCleopatraCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+		}
+		#miriammeWife {
+			position: relative;
+			top: -300px;
+		}
+		#miriammeWifeCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+		}
+		#miriammeWifeText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 40px;
+			margin-left: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 100px;
+		}
+	}
+	@media only screen
+	and (min-width : 440px)
+	and (max-width : 460px) {
+		body {
+			width: auto;
+		}
+		img {
+			width: 400px;
+			margin: 0 auto;
+			text-align: center;
+			display: block;
+		}
+		p {
+		}
+		div {
+			display: auto;
+		}
+		#desktopWrapper {
+			display: none;
+		}
+		#mobileWrapper {
+			display: block;
+		}
+		h1 {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-style: italic;
+			margin-bottom: 40px;
+			position: relative;
+			top: -30px;
+			line-height: 50px;
+		}
+		.caption {
+			line-height: 18px;
+		}
+		#miriammeText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-left: 40px;
+			margin-right: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 0px;
+			bottom: 0px;
+		}
+		#miriammeCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+			line-height: 18px;
+			text-align: center;
+		}
+		#allBut1 {
+			position: relative;
+			top: 300px;
+		}
+		#john {
+			position: relative;
+			top: -200px;
+		}
+		#johnCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			position: relative;
+			text-align: center;
+		}
+		#johnText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 40px;
+			margin-left: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 160px;
+		}
+		#masadaCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+		}
+		#masadaText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 40px;
+			margin-left: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 00px;
+			bottom: 0px;
+		}
+		#masada {
+			position: relative;
+			top: -100px;
+		}
+		#takingOfJerusalemText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 40px;
+			margin-left: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 220px;
+		}
+		#takingOfJerusalemCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+			position: relative;
+			top: 0px; /* Displays better on GoDaddy for some reason */
+		}
+		#last3 {
+			position: relative;
+			top: 800px;
+		}
+		#antonyAndCleopatra {
+			position: relative;
+			top: -400px;
+		}
+		#antonyAndCleopatraText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 40px;
+			margin-left: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 440px;
+			bottom: 0px;
+		}
+		#antonyAndCleopatraCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+		}
+		#miriammeWife {
+			position: relative;
+			top: -300px;
+		}
+		#miriammeWifeCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+		}
+		#miriammeWifeText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 40px;
+			margin-left: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 140px;
+		}
+	}
+	@media only screen
+	and (min-width : 400px)
+	and (max-width : 440px) {
+		body {
+			width: auto;
+		}
+		img {
+			width: 400px;
+			margin: 0 auto;
+			text-align: center;
+			display: block;
+		}
+		p {
+		}
+		div {
+			display: auto;
+		}
+		#desktopWrapper {
+			display: none;
+		}
+		#mobileWrapper {
+			display: block;
+		}
+		h1 {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-style: italic;
+			margin-bottom: 40px;
+			position: relative;
+			top: -30px;
+			line-height: 50px;
+		}
+		.caption {
+			line-height: 18px;
+		}
+		#miriammeText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-left: 40px;
+			margin-right: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 0px;
+			bottom: 0px;
+		}
+		#miriammeCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+			line-height: 18px;
+			text-align: center;
+		}
+		#allBut1 {
+			position: relative;
+			top: 300px;
+		}
+		#john {
+			position: relative;
+			top: -200px;
+		}
+		#johnCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			position: relative;
+			text-align: center;
+		}
+		#johnText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 40px;
+			margin-left: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 160px;
+		}
+		#masadaCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+		}
+		#masadaText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 40px;
+			margin-left: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 00px;
+			bottom: 0px;
+		}
+		#masada {
+			position: relative;
+			top: -100px;
+		}
+		#takingOfJerusalemText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 40px;
+			margin-left: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 220px;
+		}
+		#takingOfJerusalemCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+			position: relative;
+			top: 0px; /* Displays better on GoDaddy for some reason */
+		}
+		#last3 {
+			position: relative;
+			top: 800px;
+		}
+		#antonyAndCleopatra {
+			position: relative;
+			top: -400px;
+		}
+		#antonyAndCleopatraText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 40px;
+			margin-left: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 500px;
+			bottom: 0px;
+		}
+		#antonyAndCleopatraCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+		}
+		#miriammeWife {
+			position: relative;
+			top: -300px;
+		}
+		#miriammeWifeCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+		}
+		#miriammeWifeText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 40px;
+			margin-left: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 230px;
+		}
+	}
+	@media only screen
+	and (min-width : 370px)
+	and (max-width : 400px) {
+		body {
+			width: auto;
+		}
+		img {
+			width: 400px;
+			margin: 0 auto;
+			text-align: center;
+			display: block;
+		}
+		p {
+		}
+		div {
+			display: auto;
+		}
+		#desktopWrapper {
+			display: none;
+		}
+		#mobileWrapper {
+			display: block;
+		}
+		h1 {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-style: italic;
+			margin-bottom: 40px;
+			position: relative;
+			top: -30px;
+			line-height: 50px;
+		}
+		.caption {
+			line-height: 18px;
+		}
+		#miriammeText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-left: 40px;
+			margin-right: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 50px;
+		}
+		#miriammeCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+			line-height: 18px;
+			text-align: center;
+		}
+		#allBut1 {
+			position: relative;
+			top: 300px;
+		}
+		#john {
+			position: relative;
+			top: -200px;
+		}
+		#johnCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			position: relative;
+			text-align: center;
+		}
+		#johnText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 40px;
+			margin-left: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 250px;
+		}
+		#masadaCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+		}
+		#masadaText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 40px;
+			margin-left: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 100px;
+			bottom: 0px;
+		}
+		#masada {
+			position: relative;
+			top: -100px;
+		}
+		#takingOfJerusalemText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 40px;
+			margin-left: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 400px;
+		}
+		#takingOfJerusalemCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+			position: relative;
+			top: 0px; /* Displays better on GoDaddy for some reason */
+		}
+		#last3 {
+			position: relative;
+			top: 800px;
+		}
+		#antonyAndCleopatra {
+			position: relative;
+			top: -400px;
+		}
+		#antonyAndCleopatraText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 40px;
+			margin-left: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 600px;
+			bottom: 0px;
+		}
+		#antonyAndCleopatraCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+		}
+		#miriammeWife {
+			position: relative;
+			top: -300px;
+		}
+		#miriammeWifeCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+		}
+		#miriammeWifeText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 40px;
+			margin-left: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 320px;
+		}
+	}
+		@media only screen
+	and (max-width : 370px) {
+		body {
+			width: auto;
+		}
+		img {
+			width: 400px;
+			margin: 0 auto;
+			text-align: center;
+			display: block;
+		}
+		p {
+		}
+		div {
+			display: auto;
+		}
+		#desktopWrapper {
+			display: none;
+		}
+		#mobileWrapper {
+			display: block;
+		}
+		h1 {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-style: italic;
+			margin-bottom: 40px;
+			position: relative;
+			top: -30px;
+			line-height: 50px;
+		}
+		.caption {
+			line-height: 18px;
+		}
+		#miriammeText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-left: 40px;
+			margin-right: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 50px;
+		}
+		#miriammeCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+			line-height: 18px;
+			text-align: center;
+		}
+		#allBut1 {
+			position: relative;
+			top: 300px;
+		}
+		#john {
+			position: relative;
+			top: -200px;
+		}
+		#johnCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			position: relative;
+			text-align: center;
+		}
+		#johnText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 40px;
+			margin-left: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 340px;
+		}
+		#masadaCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+		}
+		#masadaText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 40px;
+			margin-left: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 100px;
+			bottom: 0px;
+		}
+		#masada {
+			position: relative;
+			top: -100px;
+		}
+		#takingOfJerusalemText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 40px;
+			margin-left: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 400px;
+		}
+		#takingOfJerusalemCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+			position: relative;
+			top: 0px; /* Displays better on GoDaddy for some reason */
+		}
+		#last3 {
+			position: relative;
+			top: 800px;
+		}
+		#antonyAndCleopatra {
+			position: relative;
+			top: -400px;
+		}
+		#antonyAndCleopatraText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 40px;
+			margin-left: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 600px;
+			bottom: 0px;
+		}
+		#antonyAndCleopatraCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+		}
+		#miriammeWife {
+			position: relative;
+			top: -300px;
+		}
+		#miriammeWifeCaption {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 14px;
+			text-align: center;
+		}
+		#miriammeWifeText {
+			font-family: 'Josefin Sans', Arial, sans-serif;
+			font-size: 16px;
+			margin-right: 40px;
+			margin-left: 40px;
+			line-height: 30px;
+			position: relative;
+			top: 320px;
 		}
 	}
 	</style>
